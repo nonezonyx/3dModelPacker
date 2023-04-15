@@ -27,7 +27,7 @@ def sort_3d_models(working_path, project_name: str, file_dict: dict[str, list[st
                 move_file(file_path, f"{renders_folder_name}\\{file}")
             elif name == 'texture':
                 move_file(file_path, f"{textures_folder_name}\\{file}")
-            else:
+            elif name != 'unknown':
                 model_folder = f"{working_path}\\{model_folder_prefix}{project_name}_{name}"
                 move_file(file_path, f"{model_folder}\\{file}")
                 folders['model_folders'].add(model_folder)

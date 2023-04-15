@@ -13,5 +13,6 @@ FORMAT_NAMES = {
     'B3D': ['b3d'],
     'C4D': ['c4d'],
     'gLTF': ['gltf'],
-    'Ma': ['ma']
+    'Ma': ['ma'],
+    'Usdc': ['usdc']
 }
